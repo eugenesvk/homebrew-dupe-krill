@@ -5,6 +5,14 @@ class DupeKrill < Formula
   sha256 "d94eb8b0b87fac83e286182ecab8bef50fe97c2d3941b5c4a04340a03913f273"
   license "MIT"
 
+  livecheck do
+    url :stable
+    regex(/^(v\d{1,2}\.\d{1,2}\.\d{1,2})$/i)
+    strategy :git do |tags, regex|
+      tags.map { |tag| tag[regex, 1]&.gsub(/v/, "") }.compact
+    end
+  end
+
   def install
     bin.install "dupe-krill"
   end
