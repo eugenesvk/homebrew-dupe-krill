@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file
 
-[unreleased]: https://github.com/eugenesvk/homebrew-dupe-krill/compare/0.0.0...HEAD
+[unreleased]: https://github.com/eugenesvk/homebrew-dupe-krill/compare/1.4.8...HEAD
 ## [Unreleased]
 <!-- - __Added__ -->
   <!-- + :sparkles:  -->
@@ -22,5 +22,5 @@ All notable changes to this project will be documented in this file
   <!-- + :lock:  -->
   <!-- vulnerabilities -->
 
-[0.0.0]: https://github.com/eugenesvk/homebrew-dupe-krill/releases/tag/0.0.0
-## [0.0.0]
+[1.4.8]: https://github.com/eugenesvk/homebrew-dupe-krill/releases/tag/1.4.8
+## [1.4.8]
